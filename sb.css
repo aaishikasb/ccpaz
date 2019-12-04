@@ -1,0 +1,43 @@
+div.sb {
+	font-family: Tahoma Small Cap, Tahoma, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	color: #fae4b4;
+	}
+
+div.sb div {
+	overflow: hidden;
+	}
+
+div.sb div.collapsed {
+	height: 29px;
+	}
+	
+div.sb div span {
+	background: url(img/sbb.gif) no-repeat;
+	display: block;
+	padding: 8px 15px;
+	font-weight: bold;
+	color: #fae4b4;
+	cursor: default;
+	}
+
+div.sb div a {
+	font-family: Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 6px 15px;
+	background: transparent;
+	color: #ceaa5b;
+	text-decoration: none;
+	}
+	
+div.sb div a.current {
+	background : transparent;
+	color: #fcc
+	}
+	
+div.sb div a:hover {
+	color: #fff;
+	text-decoration: none;
+	}

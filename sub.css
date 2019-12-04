@@ -1,0 +1,147 @@
+/*##  ALL IMAGES  ##*/
+img {
+	border: 1px solid #555;
+	}
+
+/*##  TABLE: DESCRIPTIVE PRODUCT TITLES  ##*/
+h2 {
+	font: 14px tahoma,arial;
+	/*text-align: left;	*/
+	font-weight: bold;
+	color: #009;
+	padding: 0px 0px 3px 0px;
+	margin: 0px;
+	}
+
+/*##  INQUIRE FORM TEXT  ##*/
+h3 { 
+	font: small-caps 13px bell mt,serif;
+	text-align: right;
+	color: #225;
+	padding: 0px; 
+	margin: 0px;
+	}
+
+/*##  TABLE GALLERY PICTURE TITLES  ##*/
+h4 {
+	font: small-caps 13px bell mt,serif;
+	text-align: left;	
+	font-weight: bold;
+	color: #007; /*#335;*/
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
+	}
+
+/*##  SUB PAGE HEADERS  ##*/
+#title {
+	margin: 0px 0px 10px 0px;
+	font: 20px tahoma;
+	text-align: left;	
+	font-weight: bold;
+	font-style: italic;
+	color: #a00;
+	}
+
+/*##  SUB PAGE BODY & TEXT  ##*/
+#desc {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	text-align: justify;
+	font-weight: bold;
+	font: 16px serif;
+	color: #fff; /*#335566;*/
+	}
+
+/*##  INQUIRE SECTION AT BOTTOM OF PAGE (TO REMOVE)  ##*/
+#inquire {
+	font: 18px tahoma;
+	text-align: center;	
+	font-weight: bold;
+	font-style: italic;
+	color: #a00;	
+	}
+
+/*## TABLES: PICTURES ONLY ##*/
+#gallery {
+	border-spacing: 0px;
+	padding: 0px 0px 0px 60px; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 700px; /*734%;*/
+	}
+
+/*## TABLES: with DESCRIPTIONS ##*/
+#listing {
+	border-left: none;
+	border-right: none;
+	border-top:   1px outset #666;
+	border-bottom:1px outset #666;
+	margin-left: auto; 
+	margin-right: auto;
+	border-spacing: 2px 2px;
+	padding: 0px;
+	width: 700px;  /*725*/
+	/*cellpadding="6" cellspacing="0"*/
+	color: #444;
+	font: 12px arial;
+	font-weight: bold;
+	}
+	
+/*## TABLES: Standard Matrix (sizes, options) ##*/
+table.matrix {
+	border: 2px inset #666; 
+	border-collapse: collapse;
+	/*margin-left: auto; 
+	margin-right: auto;*/
+	border-spacing: 24px 24px;
+	padding: 0px;
+	text-align: center;
+	color: #000;
+	font: 16px Courier New, Serif;
+	font-weight: bold;
+	}
+table.matrix td {
+	border:2px outset #666; 
+	border-collapse: collapse;
+	text-align: center;
+}
+	
+	
+	
+	
+	
+	
+	
+	/*## ALL CONTACT FORM ##*/
+INPUT, text, textarea, radio { 
+	background: #ffa;
+	color: #342;
+	font-family: courier new, times new roman, serif; 
+	font-size: 12px; 
+	border: 1px solid #777;
+	}
+INPUT.btnsubmit { 
+	background: #ccc;
+	color: #342;
+	font-family: Arial, sans-serif; 
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px outset #666;
+	}
+SELECT { 
+	background: #ffa;
+	color: #342;
+	font-family: courier new, times new roman, serif; 
+	font-size: 12px; 
+	border: 1px solid #777;
+	}
+#code { 
+	width: 225px;
+	padding: 5px 10px 5px 10px;
+	margin: 7px 0px 30px 0px;
+	background: #ccc;
+	color: #000;
+	font-family: courier new, times new roman, serif; 
+	font-size: 14px; 
+	border: 1px solid #777;
+	}
